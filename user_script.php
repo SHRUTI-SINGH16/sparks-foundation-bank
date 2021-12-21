@@ -1,5 +1,5 @@
 <?php
-require 'common.php';
+require 'config.php';
 $name = mysqli_real_escape_string($con, $_POST['name']);
 $email = mysqli_real_escape_string($con, $_POST['email']);
 $balance = mysqli_real_escape_string($con, $_POST['balance']);
@@ -28,7 +28,7 @@ if (($balance) < 100) {
     $insert_query = mysqli_query($con, $insert);
     if ($insert_query) {
         echo "<script> alert('user creation successful');
-    window.location='transaction.php';
+    window.location='transfer.php';
     </script>";
     }
 }

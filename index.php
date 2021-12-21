@@ -1,5 +1,5 @@
 <?php
-include 'common.php';
+include 'config.php';
 ?>
 
 <!DOCTYPE html>
@@ -49,10 +49,10 @@ include 'common.php';
             <a href="user.php">CREATE USER</a>
         </div>
         <div class="link">
-            <a href="transaction.php">TRANSFER FUNDS</a>
+            <a href="transfer.php">TRANSFER FUNDS</a>
         </div>
         <div class="link">
-            <a href="history.php">TRANSACTION HISTORY</a>
+            <a href="transaction-history.php">TRANSACTION HISTORY</a>
         </div>
     </div>
 

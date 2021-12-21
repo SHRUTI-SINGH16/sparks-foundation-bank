@@ -11,8 +11,8 @@
 
         <a href="index.php">Home</a>
         <a href="user.php">Create User</a>
-        <a href="transaction.php">Transfer Funds</a>
-        <a href="history.php">Transaction History</a>
+        <a href="transfer.php">Transfer Funds</a>
+        <a href="transaction-history.php">Transaction History</a>
 
     </div>
 

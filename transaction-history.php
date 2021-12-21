@@ -1,5 +1,5 @@
 <?php
-include 'common.php';
+include 'config.php';
 $select = "SELECT * FROM transfer";
 $select_query = mysqli_query($con, $select);
 ?>
